@@ -9,5 +9,5 @@ class MissingHeaderTokenException(APIException):
 
 class InvalidTokenException(APIException):
     message = "MISSING_HEADER_TOKEN"
-    error_code = "AUTH401"
-    status_code = 402
+    error_code = "AUTH402"
+    status_code = 401

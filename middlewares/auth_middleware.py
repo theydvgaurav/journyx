@@ -2,7 +2,7 @@ import os
 
 from flask import request
 
-from common.logging.logger import logger
+from common.logging.logger import JournyxLogger as logger
 from utils.generate_jwt_token import decode_jwt
 from .exceptions import MissingHeaderTokenException, InvalidTokenException
 

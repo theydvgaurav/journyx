@@ -99,7 +99,7 @@ class CustomizeLogger:
         return config
 
 
-class HeisenbergLogger(CustomizeLogger):
+class JournyxLogger(CustomizeLogger):
     """"""
 
     @staticmethod
